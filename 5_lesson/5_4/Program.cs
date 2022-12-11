@@ -36,7 +36,7 @@ void Print(int[] arr)
 	    return new_arr;
 	}
 	
-	int[] arr_1 = MassNums(6);
+	int[] arr_1 = MassNums(7);
 	Print(arr_1);
 	int[] arr_1_new = PairsNum(arr_1);
 	Print(arr_1_new);
