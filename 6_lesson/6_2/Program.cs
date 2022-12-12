@@ -4,7 +4,7 @@
 3 -> 11
 2 -> 10*/
 
-Console.WriteLine("type a number");
+/*Console.WriteLine("type a number");
 int num = int.Parse(Console.ReadLine());
 string Generation(int num)
 {
@@ -25,4 +25,17 @@ while (num >= 1)
 }
 return sum;
 }
-Console.WriteLine($"your number {num} in BIN system is {Generation(num)}");
+Console.WriteLine($"your number {num} in BIN system is {Generation(num)}");*/
+string Bin(int n)
+	{
+	    string result = "";
+	
+	    while (n > 0)
+	    {
+	        result = n % 2 + result;
+	        n /= 2;
+	    }
+	    return result;
+	}
+	
+	Console.WriteLine(Bin(int.Parse(Console.ReadLine())));
