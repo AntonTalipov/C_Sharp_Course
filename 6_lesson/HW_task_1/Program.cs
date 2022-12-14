@@ -32,4 +32,4 @@ int SumPos (int [] arr){
 }
 Collection(arr);
 Print(arr);
-Console.WriteLine(SumPos(arr));
+Console.WriteLine(SumPos(arr)); //hw 1
