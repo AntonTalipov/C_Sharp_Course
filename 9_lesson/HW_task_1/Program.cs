@@ -2,9 +2,9 @@
 чётные натуральные числа в промежутке от M до N с помощью рекурсии.
 M = 1; N = 5 -> "2, 4"
 M = 4; N = 8 -> "4, 6, 8"*/
-Console.WriteLine("type a number a");
+Console.WriteLine("type a number m");
 int m = int.Parse(Console.ReadLine());
-Console.WriteLine("type a number b");
+Console.WriteLine("type a number n");
 int n = int.Parse(Console.ReadLine());
 void Row(int m, int n)
 	{
